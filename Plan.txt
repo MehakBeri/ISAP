@@ -1,0 +1,17 @@
+SPA:
+
+1. Dataset from Kaggle.
+2. Divide the dataset as per Type_code
+3. Take 60% as training set, 20% as validation set and 20% as test set.
+3. Make 5 different models out of these Type_code and use 5 dfferent classifiers. so total 25 vals at end, among which we give the final output based on votes form the 25 quantitirs:
+4. The max number of suicide in any row will be taken as the base case and others will be counted with respect to it.
+
+MODELS USED:
+BAG OF WORDS- USES LAST COLUMN AS FREQUENCY---no, convert into classes 0 and 1. 
+
+for the foll, normalize data according to data given by total states=> get a val b/w 0 n 1; and o/p will b multivariate b/w0 n 1 as well, so tht will infer the percentage chance of suicide fr the victim
+
+LR 
+NAIVE BAYES
+NEURAL NETWORKS
+SVM
