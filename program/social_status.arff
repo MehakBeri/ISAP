@@ -1,0 +1,4569 @@
+@relation social_status
+
+@attribute ﻿State {'A & N Islands','Andhra Pradesh','Arunachal Pradesh',Assam,Bihar,Chandigarh,Chhattisgarh,'D & N Haveli','Daman & Diu','Delhi (Ut)',Goa,Gujarat,Haryana,'Himachal Pradesh','Jammu & Kashmir',Jharkhand,Karnataka,Kerala,Lakshadweep,'Madhya Pradesh',Maharashtra,Manipur,Meghalaya,Mizoram,Nagaland,Odisha,Puducherry,Punjab,Rajasthan,Sikkim,'Tamil Nadu','Total (All India)','Total (States)','Total (Uts)',Tripura,'Uttar Pradesh',Uttarakhand,'West Bengal'}
+@attribute Social_Status {Married,Seperated,Widowed/Widower,Divorcee,'Never Married'}
+@attribute Gender {Female,Male}
+@attribute Age_group {0-100+}
+@attribute target {yes,no}
+
+@data
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Female,0-100+,no
+'A & N Islands',Divorcee,Female,0-100+,no
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands',Widowed/Widower,Male,0-100+,no
+'A & N Islands',Seperated,Male,0-100+,no
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Divorcee,Male,0-100+,no
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands',Divorcee,Female,0-100+,no
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands',Widowed/Widower,Female,0-100+,no
+'A & N Islands',Divorcee,Male,0-100+,no
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Widowed/Widower,Male,0-100+,no
+'A & N Islands',Seperated,Male,0-100+,no
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands',Divorcee,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Female,0-100+,no
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands',Widowed/Widower,Male,0-100+,no
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Seperated,Male,0-100+,no
+'A & N Islands',Divorcee,Male,0-100+,no
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Female,0-100+,no
+'A & N Islands',Divorcee,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Male,0-100+,no
+'A & N Islands',Divorcee,Male,0-100+,yes
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands',Seperated,Male,0-100+,no
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands',Divorcee,Female,0-100+,no
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Female,0-100+,no
+'A & N Islands',Divorcee,Male,0-100+,no
+'A & N Islands',Seperated,Male,0-100+,no
+'A & N Islands',Widowed/Widower,Male,0-100+,yes
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands',Divorcee,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Female,0-100+,no
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Male,0-100+,no
+'A & N Islands',Seperated,Male,0-100+,no
+'A & N Islands',Divorcee,Male,0-100+,no
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Divorcee,Female,0-100+,no
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Female,0-100+,no
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Seperated,Male,0-100+,no
+'A & N Islands',Widowed/Widower,Male,0-100+,no
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands',Divorcee,Male,0-100+,no
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands',Divorcee,Female,0-100+,no
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Female,0-100+,no
+'A & N Islands',Seperated,Male,0-100+,no
+'A & N Islands',Widowed/Widower,Male,0-100+,no
+'A & N Islands',Divorcee,Male,0-100+,no
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands',Divorcee,Female,0-100+,no
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Female,0-100+,no
+'A & N Islands',Divorcee,Male,0-100+,no
+'A & N Islands',Seperated,Male,0-100+,no
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Widowed/Widower,Male,0-100+,no
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands',Divorcee,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Female,0-100+,yes
+'A & N Islands',Divorcee,Male,0-100+,yes
+'A & N Islands',Seperated,Male,0-100+,yes
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands',Widowed/Widower,Male,0-100+,yes
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands',Divorcee,Female,0-100+,yes
+'A & N Islands',Widowed/Widower,Female,0-100+,no
+'A & N Islands',Divorcee,Male,0-100+,no
+'A & N Islands',Widowed/Widower,Male,0-100+,no
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Seperated,Male,0-100+,yes
+'A & N Islands','Never Married',Female,0-100+,yes
+'A & N Islands',Divorcee,Female,0-100+,no
+'A & N Islands',Seperated,Female,0-100+,no
+'A & N Islands',Widowed/Widower,Female,0-100+,no
+'A & N Islands',Married,Female,0-100+,yes
+'A & N Islands',Married,Male,0-100+,yes
+'A & N Islands',Widowed/Widower,Male,0-100+,no
+'A & N Islands','Never Married',Male,0-100+,yes
+'A & N Islands',Divorcee,Male,0-100+,no
+'A & N Islands',Seperated,Male,0-100+,no
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Andhra Pradesh',Married,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Female,0-100+,yes
+'Andhra Pradesh',Divorcee,Female,0-100+,yes
+'Andhra Pradesh','Never Married',Female,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Female,0-100+,yes
+'Andhra Pradesh',Seperated,Male,0-100+,yes
+'Andhra Pradesh',Divorcee,Male,0-100+,yes
+'Andhra Pradesh',Widowed/Widower,Male,0-100+,yes
+'Andhra Pradesh','Never Married',Male,0-100+,yes
+'Andhra Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh',Divorcee,Female,0-100+,no
+'Arunachal Pradesh',Seperated,Female,0-100+,yes
+'Arunachal Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,no
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Divorcee,Male,0-100+,no
+'Arunachal Pradesh',Seperated,Male,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh',Divorcee,Female,0-100+,no
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh',Seperated,Female,0-100+,no
+'Arunachal Pradesh',Divorcee,Male,0-100+,no
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,no
+'Arunachal Pradesh',Seperated,Male,0-100+,no
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh',Seperated,Female,0-100+,no
+'Arunachal Pradesh',Divorcee,Female,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,no
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh',Divorcee,Male,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Seperated,Male,0-100+,yes
+'Arunachal Pradesh',Divorcee,Female,0-100+,no
+'Arunachal Pradesh',Seperated,Female,0-100+,no
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,no
+'Arunachal Pradesh',Divorcee,Male,0-100+,no
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,no
+'Arunachal Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh',Seperated,Male,0-100+,no
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh',Divorcee,Female,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,no
+'Arunachal Pradesh',Seperated,Female,0-100+,no
+'Arunachal Pradesh',Divorcee,Male,0-100+,no
+'Arunachal Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Seperated,Male,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,no
+'Arunachal Pradesh',Divorcee,Female,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,no
+'Arunachal Pradesh',Seperated,Female,0-100+,no
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh',Seperated,Male,0-100+,no
+'Arunachal Pradesh',Divorcee,Male,0-100+,no
+'Arunachal Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,no
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Seperated,Female,0-100+,no
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh',Divorcee,Female,0-100+,no
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,no
+'Arunachal Pradesh',Divorcee,Male,0-100+,no
+'Arunachal Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh',Seperated,Male,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,no
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh',Divorcee,Female,0-100+,no
+'Arunachal Pradesh',Seperated,Female,0-100+,no
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Divorcee,Male,0-100+,yes
+'Arunachal Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,no
+'Arunachal Pradesh',Seperated,Male,0-100+,no
+'Arunachal Pradesh',Divorcee,Female,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Arunachal Pradesh',Seperated,Female,0-100+,no
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh',Divorcee,Male,0-100+,yes
+'Arunachal Pradesh',Seperated,Male,0-100+,no
+'Arunachal Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,no
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Seperated,Female,0-100+,no
+'Arunachal Pradesh',Divorcee,Female,0-100+,no
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,no
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh',Divorcee,Male,0-100+,no
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Seperated,Male,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,no
+'Arunachal Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh',Divorcee,Female,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,no
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh',Seperated,Female,0-100+,no
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh',Married,Male,0-100+,yes
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,no
+'Arunachal Pradesh',Divorcee,Male,0-100+,no
+'Arunachal Pradesh',Seperated,Male,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Female,0-100+,no
+'Arunachal Pradesh',Divorcee,Female,0-100+,yes
+'Arunachal Pradesh',Married,Female,0-100+,yes
+'Arunachal Pradesh',Seperated,Female,0-100+,no
+'Arunachal Pradesh','Never Married',Female,0-100+,yes
+'Arunachal Pradesh','Never Married',Male,0-100+,yes
+'Arunachal Pradesh',Seperated,Male,0-100+,no
+'Arunachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Arunachal Pradesh',Divorcee,Male,0-100+,no
+'Arunachal Pradesh',Married,Male,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,'Never Married',Female,0-100+,yes
+Assam,Widowed/Widower,Female,0-100+,yes
+Assam,Divorcee,Female,0-100+,yes
+Assam,Married,Female,0-100+,yes
+Assam,Seperated,Female,0-100+,yes
+Assam,Widowed/Widower,Male,0-100+,yes
+Assam,'Never Married',Male,0-100+,yes
+Assam,Seperated,Male,0-100+,yes
+Assam,Married,Male,0-100+,yes
+Assam,Divorcee,Male,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,Seperated,Female,0-100+,yes
+Bihar,Divorcee,Female,0-100+,yes
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,Married,Female,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,Divorcee,Male,0-100+,yes
+Bihar,Seperated,Male,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Bihar,Married,Female,0-100+,yes
+Bihar,Divorcee,Female,0-100+,yes
+Bihar,Seperated,Female,0-100+,yes
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,Divorcee,Male,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Bihar,Seperated,Male,0-100+,yes
+Bihar,Divorcee,Female,0-100+,yes
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,Seperated,Female,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,Married,Female,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Divorcee,Male,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,Seperated,Male,0-100+,yes
+Bihar,Seperated,Female,0-100+,no
+Bihar,Divorcee,Female,0-100+,yes
+Bihar,Married,Female,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,Seperated,Male,0-100+,yes
+Bihar,Divorcee,Male,0-100+,yes
+Bihar,Seperated,Female,0-100+,yes
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,Divorcee,Female,0-100+,yes
+Bihar,Married,Female,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,Divorcee,Male,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,Seperated,Male,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Divorcee,Female,0-100+,yes
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,Seperated,Female,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,Married,Female,0-100+,yes
+Bihar,Seperated,Male,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,Divorcee,Male,0-100+,yes
+Bihar,Married,Female,0-100+,yes
+Bihar,Seperated,Female,0-100+,yes
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,Divorcee,Female,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Bihar,Divorcee,Male,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Seperated,Male,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,Married,Female,0-100+,yes
+Bihar,Divorcee,Female,0-100+,yes
+Bihar,Seperated,Female,0-100+,yes
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,Seperated,Male,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Bihar,Divorcee,Male,0-100+,yes
+Bihar,Married,Female,0-100+,yes
+Bihar,Seperated,Female,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,Divorcee,Female,0-100+,yes
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,Seperated,Male,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Bihar,Divorcee,Male,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Seperated,Female,0-100+,yes
+Bihar,Divorcee,Female,0-100+,yes
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,Married,Female,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Divorcee,Male,0-100+,yes
+Bihar,Seperated,Male,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Bihar,Seperated,Female,0-100+,yes
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,Married,Female,0-100+,yes
+Bihar,Divorcee,Female,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,Seperated,Male,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Bihar,Divorcee,Male,0-100+,no
+Bihar,'Never Married',Female,0-100+,yes
+Bihar,Seperated,Female,0-100+,yes
+Bihar,Widowed/Widower,Female,0-100+,yes
+Bihar,Divorcee,Female,0-100+,no
+Bihar,Married,Female,0-100+,yes
+Bihar,Divorcee,Male,0-100+,no
+Bihar,Seperated,Male,0-100+,yes
+Bihar,'Never Married',Male,0-100+,yes
+Bihar,Married,Male,0-100+,yes
+Bihar,Widowed/Widower,Male,0-100+,yes
+Chandigarh,Divorcee,Female,0-100+,no
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,Married,Male,0-100+,yes
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,Divorcee,Female,0-100+,no
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,Married,Male,0-100+,yes
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,Divorcee,Female,0-100+,no
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,Married,Male,0-100+,yes
+Chandigarh,Divorcee,Female,0-100+,no
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Married,Male,0-100+,yes
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,Divorcee,Female,0-100+,no
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,Married,Male,0-100+,yes
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Divorcee,Female,0-100+,no
+Chandigarh,Married,Male,0-100+,yes
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,Divorcee,Female,0-100+,no
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,Married,Male,0-100+,yes
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Divorcee,Female,0-100+,yes
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,Married,Male,0-100+,yes
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Divorcee,Female,0-100+,no
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,Married,Male,0-100+,yes
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,Divorcee,Female,0-100+,no
+Chandigarh,Married,Male,0-100+,yes
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Divorcee,Female,0-100+,no
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,Married,Male,0-100+,yes
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,Widowed/Widower,Female,0-100+,no
+Chandigarh,Seperated,Female,0-100+,no
+Chandigarh,'Never Married',Female,0-100+,yes
+Chandigarh,Married,Female,0-100+,yes
+Chandigarh,Divorcee,Female,0-100+,yes
+Chandigarh,Seperated,Male,0-100+,no
+Chandigarh,Widowed/Widower,Male,0-100+,no
+Chandigarh,'Never Married',Male,0-100+,yes
+Chandigarh,Divorcee,Male,0-100+,no
+Chandigarh,Married,Male,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,yes
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,yes
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,yes
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,no
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,no
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,yes
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Female,0-100+,yes
+Chhattisgarh,Seperated,Female,0-100+,yes
+Chhattisgarh,'Never Married',Female,0-100+,yes
+Chhattisgarh,Married,Female,0-100+,yes
+Chhattisgarh,Divorcee,Female,0-100+,yes
+Chhattisgarh,Seperated,Male,0-100+,yes
+Chhattisgarh,'Never Married',Male,0-100+,yes
+Chhattisgarh,Married,Male,0-100+,yes
+Chhattisgarh,Divorcee,Male,0-100+,yes
+Chhattisgarh,Widowed/Widower,Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Female,0-100+,no
+'D & N Haveli',Divorcee,Female,0-100+,no
+'D & N Haveli',Seperated,Female,0-100+,no
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Male,0-100+,no
+'D & N Haveli',Seperated,Male,0-100+,no
+'D & N Haveli',Divorcee,Male,0-100+,no
+'D & N Haveli',Widowed/Widower,Female,0-100+,yes
+'D & N Haveli',Seperated,Female,0-100+,no
+'D & N Haveli',Divorcee,Female,0-100+,no
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Male,0-100+,no
+'D & N Haveli',Divorcee,Male,0-100+,no
+'D & N Haveli',Seperated,Male,0-100+,no
+'D & N Haveli',Widowed/Widower,Female,0-100+,no
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli',Seperated,Female,0-100+,no
+'D & N Haveli',Divorcee,Female,0-100+,yes
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Divorcee,Male,0-100+,no
+'D & N Haveli',Widowed/Widower,Male,0-100+,yes
+'D & N Haveli',Seperated,Male,0-100+,yes
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli',Widowed/Widower,Female,0-100+,no
+'D & N Haveli',Divorcee,Female,0-100+,no
+'D & N Haveli',Seperated,Female,0-100+,no
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Male,0-100+,no
+'D & N Haveli',Seperated,Male,0-100+,no
+'D & N Haveli',Divorcee,Male,0-100+,no
+'D & N Haveli',Widowed/Widower,Female,0-100+,yes
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli',Divorcee,Female,0-100+,no
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli',Seperated,Female,0-100+,no
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Male,0-100+,no
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli',Divorcee,Male,0-100+,no
+'D & N Haveli',Seperated,Male,0-100+,no
+'D & N Haveli',Widowed/Widower,Female,0-100+,no
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli',Seperated,Female,0-100+,no
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli',Divorcee,Female,0-100+,no
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Male,0-100+,no
+'D & N Haveli',Seperated,Male,0-100+,yes
+'D & N Haveli',Divorcee,Male,0-100+,no
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Female,0-100+,no
+'D & N Haveli',Seperated,Female,0-100+,no
+'D & N Haveli',Divorcee,Female,0-100+,no
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Male,0-100+,no
+'D & N Haveli',Seperated,Male,0-100+,yes
+'D & N Haveli',Divorcee,Male,0-100+,no
+'D & N Haveli',Widowed/Widower,Female,0-100+,no
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli',Divorcee,Female,0-100+,no
+'D & N Haveli',Seperated,Female,0-100+,no
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Male,0-100+,no
+'D & N Haveli',Divorcee,Male,0-100+,no
+'D & N Haveli',Seperated,Male,0-100+,no
+'D & N Haveli',Widowed/Widower,Female,0-100+,yes
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli',Divorcee,Female,0-100+,yes
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli',Seperated,Female,0-100+,no
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli',Seperated,Male,0-100+,no
+'D & N Haveli',Widowed/Widower,Male,0-100+,yes
+'D & N Haveli',Divorcee,Male,0-100+,no
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli',Seperated,Female,0-100+,no
+'D & N Haveli',Widowed/Widower,Female,0-100+,no
+'D & N Haveli',Divorcee,Female,0-100+,yes
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Male,0-100+,yes
+'D & N Haveli',Divorcee,Male,0-100+,no
+'D & N Haveli',Seperated,Male,0-100+,no
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli',Seperated,Female,0-100+,yes
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli',Widowed/Widower,Female,0-100+,yes
+'D & N Haveli',Divorcee,Female,0-100+,no
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Male,0-100+,no
+'D & N Haveli',Divorcee,Male,0-100+,no
+'D & N Haveli',Seperated,Male,0-100+,no
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Female,0-100+,no
+'D & N Haveli',Divorcee,Female,0-100+,no
+'D & N Haveli',Married,Female,0-100+,yes
+'D & N Haveli',Seperated,Female,0-100+,no
+'D & N Haveli','Never Married',Female,0-100+,yes
+'D & N Haveli','Never Married',Male,0-100+,yes
+'D & N Haveli',Married,Male,0-100+,yes
+'D & N Haveli',Widowed/Widower,Male,0-100+,no
+'D & N Haveli',Divorcee,Male,0-100+,yes
+'D & N Haveli',Seperated,Male,0-100+,yes
+'Daman & Diu','Never Married',Female,0-100+,yes
+'Daman & Diu',Widowed/Widower,Female,0-100+,no
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu',Divorcee,Male,0-100+,no
+'Daman & Diu',Widowed/Widower,Male,0-100+,no
+'Daman & Diu',Married,Male,0-100+,yes
+'Daman & Diu',Seperated,Male,0-100+,no
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu','Never Married',Female,0-100+,no
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu',Widowed/Widower,Female,0-100+,no
+'Daman & Diu',Married,Male,0-100+,yes
+'Daman & Diu',Widowed/Widower,Male,0-100+,no
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu',Divorcee,Male,0-100+,no
+'Daman & Diu',Seperated,Male,0-100+,no
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu','Never Married',Female,0-100+,yes
+'Daman & Diu',Widowed/Widower,Female,0-100+,no
+'Daman & Diu',Widowed/Widower,Male,0-100+,yes
+'Daman & Diu',Seperated,Male,0-100+,no
+'Daman & Diu',Divorcee,Male,0-100+,no
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu',Married,Male,0-100+,yes
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu','Never Married',Female,0-100+,yes
+'Daman & Diu',Widowed/Widower,Female,0-100+,no
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu',Seperated,Male,0-100+,no
+'Daman & Diu',Divorcee,Male,0-100+,no
+'Daman & Diu',Married,Male,0-100+,yes
+'Daman & Diu',Widowed/Widower,Male,0-100+,no
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu','Never Married',Female,0-100+,yes
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu',Widowed/Widower,Female,0-100+,no
+'Daman & Diu',Widowed/Widower,Male,0-100+,no
+'Daman & Diu',Seperated,Male,0-100+,yes
+'Daman & Diu',Divorcee,Male,0-100+,no
+'Daman & Diu',Married,Male,0-100+,yes
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu','Never Married',Female,0-100+,yes
+'Daman & Diu',Widowed/Widower,Female,0-100+,no
+'Daman & Diu',Divorcee,Male,0-100+,no
+'Daman & Diu',Married,Male,0-100+,yes
+'Daman & Diu',Widowed/Widower,Male,0-100+,yes
+'Daman & Diu',Seperated,Male,0-100+,no
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu',Widowed/Widower,Female,0-100+,no
+'Daman & Diu','Never Married',Female,0-100+,yes
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu',Married,Male,0-100+,yes
+'Daman & Diu',Divorcee,Male,0-100+,no
+'Daman & Diu',Widowed/Widower,Male,0-100+,no
+'Daman & Diu',Seperated,Male,0-100+,no
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu',Widowed/Widower,Female,0-100+,yes
+'Daman & Diu','Never Married',Female,0-100+,yes
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu',Married,Male,0-100+,yes
+'Daman & Diu',Widowed/Widower,Male,0-100+,no
+'Daman & Diu',Divorcee,Male,0-100+,yes
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu',Seperated,Male,0-100+,no
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu',Widowed/Widower,Female,0-100+,no
+'Daman & Diu','Never Married',Female,0-100+,yes
+'Daman & Diu',Divorcee,Male,0-100+,no
+'Daman & Diu',Seperated,Male,0-100+,no
+'Daman & Diu',Widowed/Widower,Male,0-100+,yes
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu',Married,Male,0-100+,yes
+'Daman & Diu','Never Married',Female,0-100+,yes
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu',Widowed/Widower,Female,0-100+,no
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu',Divorcee,Male,0-100+,no
+'Daman & Diu',Widowed/Widower,Male,0-100+,no
+'Daman & Diu',Seperated,Male,0-100+,no
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu',Married,Male,0-100+,yes
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu','Never Married',Female,0-100+,yes
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu',Widowed/Widower,Female,0-100+,no
+'Daman & Diu',Widowed/Widower,Male,0-100+,no
+'Daman & Diu',Seperated,Male,0-100+,yes
+'Daman & Diu',Divorcee,Male,0-100+,no
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu',Married,Male,0-100+,yes
+'Daman & Diu',Married,Female,0-100+,yes
+'Daman & Diu',Divorcee,Female,0-100+,no
+'Daman & Diu','Never Married',Female,0-100+,yes
+'Daman & Diu',Widowed/Widower,Female,0-100+,no
+'Daman & Diu',Seperated,Female,0-100+,no
+'Daman & Diu',Divorcee,Male,0-100+,no
+'Daman & Diu',Seperated,Male,0-100+,yes
+'Daman & Diu','Never Married',Male,0-100+,yes
+'Daman & Diu',Widowed/Widower,Male,0-100+,no
+'Daman & Diu',Married,Male,0-100+,yes
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)',Divorcee,Female,0-100+,yes
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,no
+'Delhi (Ut)',Divorcee,Female,0-100+,yes
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,no
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)',Divorcee,Female,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,no
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Female,0-100+,yes
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,yes
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Female,0-100+,no
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,no
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Divorcee,Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,no
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Female,0-100+,yes
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)',Divorcee,Female,0-100+,no
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)',Divorcee,Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Female,0-100+,yes
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Female,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Female,0-100+,yes
+'Delhi (Ut)',Married,Female,0-100+,yes
+'Delhi (Ut)','Never Married',Female,0-100+,yes
+'Delhi (Ut)',Seperated,Female,0-100+,yes
+'Delhi (Ut)',Seperated,Male,0-100+,yes
+'Delhi (Ut)',Married,Male,0-100+,yes
+'Delhi (Ut)',Widowed/Widower,Male,0-100+,yes
+'Delhi (Ut)',Divorcee,Male,0-100+,yes
+'Delhi (Ut)','Never Married',Male,0-100+,yes
+Goa,Married,Female,0-100+,yes
+Goa,'Never Married',Female,0-100+,yes
+Goa,Seperated,Female,0-100+,no
+Goa,Divorcee,Female,0-100+,no
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,Married,Male,0-100+,yes
+Goa,Widowed/Widower,Male,0-100+,yes
+Goa,Divorcee,Male,0-100+,no
+Goa,'Never Married',Male,0-100+,yes
+Goa,Seperated,Male,0-100+,yes
+Goa,Seperated,Female,0-100+,yes
+Goa,Married,Female,0-100+,yes
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,Divorcee,Female,0-100+,no
+Goa,'Never Married',Female,0-100+,yes
+Goa,Widowed/Widower,Male,0-100+,yes
+Goa,Seperated,Male,0-100+,no
+Goa,'Never Married',Male,0-100+,yes
+Goa,Divorcee,Male,0-100+,no
+Goa,Married,Male,0-100+,yes
+Goa,Seperated,Female,0-100+,no
+Goa,Divorcee,Female,0-100+,no
+Goa,Married,Female,0-100+,yes
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,'Never Married',Female,0-100+,yes
+Goa,Divorcee,Male,0-100+,no
+Goa,'Never Married',Male,0-100+,yes
+Goa,Widowed/Widower,Male,0-100+,yes
+Goa,Married,Male,0-100+,yes
+Goa,Seperated,Male,0-100+,no
+Goa,Seperated,Female,0-100+,no
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,Divorcee,Female,0-100+,no
+Goa,Married,Female,0-100+,yes
+Goa,'Never Married',Female,0-100+,yes
+Goa,Widowed/Widower,Male,0-100+,yes
+Goa,Divorcee,Male,0-100+,no
+Goa,'Never Married',Male,0-100+,yes
+Goa,Seperated,Male,0-100+,yes
+Goa,Married,Male,0-100+,yes
+Goa,Seperated,Female,0-100+,yes
+Goa,Married,Female,0-100+,yes
+Goa,'Never Married',Female,0-100+,yes
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,Divorcee,Female,0-100+,no
+Goa,Widowed/Widower,Male,0-100+,yes
+Goa,'Never Married',Male,0-100+,yes
+Goa,Divorcee,Male,0-100+,no
+Goa,Married,Male,0-100+,yes
+Goa,Seperated,Male,0-100+,no
+Goa,'Never Married',Female,0-100+,yes
+Goa,Seperated,Female,0-100+,no
+Goa,Divorcee,Female,0-100+,no
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,Married,Female,0-100+,yes
+Goa,'Never Married',Male,0-100+,yes
+Goa,Divorcee,Male,0-100+,no
+Goa,Widowed/Widower,Male,0-100+,yes
+Goa,Married,Male,0-100+,yes
+Goa,Seperated,Male,0-100+,no
+Goa,Married,Female,0-100+,yes
+Goa,Seperated,Female,0-100+,no
+Goa,'Never Married',Female,0-100+,yes
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,Divorcee,Female,0-100+,no
+Goa,Divorcee,Male,0-100+,no
+Goa,Widowed/Widower,Male,0-100+,yes
+Goa,Seperated,Male,0-100+,no
+Goa,'Never Married',Male,0-100+,yes
+Goa,Married,Male,0-100+,yes
+Goa,'Never Married',Female,0-100+,yes
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,Married,Female,0-100+,yes
+Goa,Divorcee,Female,0-100+,yes
+Goa,Seperated,Female,0-100+,no
+Goa,Widowed/Widower,Male,0-100+,yes
+Goa,Married,Male,0-100+,yes
+Goa,Seperated,Male,0-100+,yes
+Goa,Divorcee,Male,0-100+,yes
+Goa,'Never Married',Male,0-100+,yes
+Goa,Married,Female,0-100+,yes
+Goa,'Never Married',Female,0-100+,yes
+Goa,Divorcee,Female,0-100+,yes
+Goa,Seperated,Female,0-100+,no
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,Widowed/Widower,Male,0-100+,yes
+Goa,Seperated,Male,0-100+,yes
+Goa,Divorcee,Male,0-100+,yes
+Goa,Married,Male,0-100+,yes
+Goa,'Never Married',Male,0-100+,yes
+Goa,'Never Married',Female,0-100+,yes
+Goa,Married,Female,0-100+,yes
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,Divorcee,Female,0-100+,no
+Goa,Seperated,Female,0-100+,yes
+Goa,'Never Married',Male,0-100+,yes
+Goa,Divorcee,Male,0-100+,yes
+Goa,Married,Male,0-100+,yes
+Goa,Widowed/Widower,Male,0-100+,yes
+Goa,Seperated,Male,0-100+,yes
+Goa,Divorcee,Female,0-100+,yes
+Goa,Married,Female,0-100+,yes
+Goa,'Never Married',Female,0-100+,yes
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,Seperated,Female,0-100+,no
+Goa,Widowed/Widower,Male,0-100+,no
+Goa,'Never Married',Male,0-100+,yes
+Goa,Married,Male,0-100+,yes
+Goa,Seperated,Male,0-100+,no
+Goa,Divorcee,Male,0-100+,no
+Goa,Married,Female,0-100+,yes
+Goa,Divorcee,Female,0-100+,no
+Goa,'Never Married',Female,0-100+,yes
+Goa,Widowed/Widower,Female,0-100+,yes
+Goa,Seperated,Female,0-100+,no
+Goa,Divorcee,Male,0-100+,yes
+Goa,'Never Married',Male,0-100+,yes
+Goa,Widowed/Widower,Male,0-100+,yes
+Goa,Married,Male,0-100+,yes
+Goa,Seperated,Male,0-100+,no
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,Divorcee,Female,0-100+,yes
+Gujarat,Seperated,Female,0-100+,yes
+Gujarat,Married,Female,0-100+,yes
+Gujarat,'Never Married',Female,0-100+,yes
+Gujarat,Widowed/Widower,Female,0-100+,yes
+Gujarat,'Never Married',Male,0-100+,yes
+Gujarat,Married,Male,0-100+,yes
+Gujarat,Divorcee,Male,0-100+,yes
+Gujarat,Widowed/Widower,Male,0-100+,yes
+Gujarat,Seperated,Male,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,Seperated,Female,0-100+,yes
+Haryana,'Never Married',Female,0-100+,yes
+Haryana,Married,Female,0-100+,yes
+Haryana,Divorcee,Female,0-100+,yes
+Haryana,Widowed/Widower,Female,0-100+,yes
+Haryana,'Never Married',Male,0-100+,yes
+Haryana,Divorcee,Male,0-100+,yes
+Haryana,Seperated,Male,0-100+,yes
+Haryana,Widowed/Widower,Male,0-100+,yes
+Haryana,Married,Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,yes
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,yes
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,yes
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,yes
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,no
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,yes
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,no
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,yes
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,yes
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,no
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,yes
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,no
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,no
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,no
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,no
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,yes
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,no
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,yes
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,no
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,yes
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,no
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,no
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh',Divorcee,Female,0-100+,yes
+'Himachal Pradesh',Seperated,Female,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Female,0-100+,yes
+'Himachal Pradesh','Never Married',Female,0-100+,yes
+'Himachal Pradesh',Married,Female,0-100+,yes
+'Himachal Pradesh',Divorcee,Male,0-100+,yes
+'Himachal Pradesh','Never Married',Male,0-100+,yes
+'Himachal Pradesh',Seperated,Male,0-100+,yes
+'Himachal Pradesh',Widowed/Widower,Male,0-100+,yes
+'Himachal Pradesh',Married,Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Female,0-100+,no
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,yes
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Female,0-100+,no
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,no
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,yes
+'Jammu & Kashmir',Divorcee,Male,0-100+,no
+'Jammu & Kashmir',Divorcee,Female,0-100+,yes
+'Jammu & Kashmir',Seperated,Female,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,yes
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Male,0-100+,yes
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,yes
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Female,0-100+,yes
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Seperated,Female,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Male,0-100+,yes
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,yes
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Female,0-100+,no
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,no
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Seperated,Female,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,yes
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,yes
+'Jammu & Kashmir',Divorcee,Male,0-100+,no
+'Jammu & Kashmir',Divorcee,Female,0-100+,yes
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Seperated,Female,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,yes
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,no
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Divorcee,Male,0-100+,no
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Female,0-100+,yes
+'Jammu & Kashmir',Seperated,Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Male,0-100+,no
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,no
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,yes
+'Jammu & Kashmir',Seperated,Female,0-100+,no
+'Jammu & Kashmir',Divorcee,Female,0-100+,yes
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,yes
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,no
+'Jammu & Kashmir',Divorcee,Male,0-100+,no
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Female,0-100+,yes
+'Jammu & Kashmir',Seperated,Female,0-100+,no
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,no
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,no
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,no
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Divorcee,Male,0-100+,no
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,yes
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Female,0-100+,no
+'Jammu & Kashmir',Seperated,Female,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,yes
+'Jammu & Kashmir',Divorcee,Male,0-100+,no
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,yes
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,yes
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Female,0-100+,no
+'Jammu & Kashmir',Seperated,Female,0-100+,yes
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir',Divorcee,Male,0-100+,no
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,no
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Female,0-100+,yes
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,yes
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Male,0-100+,yes
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,yes
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,yes
+'Jammu & Kashmir',Divorcee,Female,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Female,0-100+,yes
+'Jammu & Kashmir','Never Married',Female,0-100+,yes
+'Jammu & Kashmir',Married,Female,0-100+,yes
+'Jammu & Kashmir',Seperated,Female,0-100+,yes
+'Jammu & Kashmir',Divorcee,Male,0-100+,yes
+'Jammu & Kashmir',Widowed/Widower,Male,0-100+,yes
+'Jammu & Kashmir','Never Married',Male,0-100+,yes
+'Jammu & Kashmir',Married,Male,0-100+,yes
+'Jammu & Kashmir',Seperated,Male,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,Married,Female,0-100+,yes
+Jharkhand,Divorcee,Female,0-100+,yes
+Jharkhand,Widowed/Widower,Female,0-100+,yes
+Jharkhand,Seperated,Female,0-100+,yes
+Jharkhand,'Never Married',Female,0-100+,yes
+Jharkhand,Widowed/Widower,Male,0-100+,yes
+Jharkhand,Seperated,Male,0-100+,yes
+Jharkhand,Divorcee,Male,0-100+,yes
+Jharkhand,'Never Married',Male,0-100+,yes
+Jharkhand,Married,Male,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,Widowed/Widower,Female,0-100+,yes
+Karnataka,Married,Female,0-100+,yes
+Karnataka,Divorcee,Female,0-100+,yes
+Karnataka,'Never Married',Female,0-100+,yes
+Karnataka,Seperated,Female,0-100+,yes
+Karnataka,Seperated,Male,0-100+,yes
+Karnataka,Married,Male,0-100+,yes
+Karnataka,'Never Married',Male,0-100+,yes
+Karnataka,Widowed/Widower,Male,0-100+,yes
+Karnataka,Divorcee,Male,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Married,Female,0-100+,yes
+Kerala,Divorcee,Female,0-100+,yes
+Kerala,Seperated,Female,0-100+,yes
+Kerala,'Never Married',Female,0-100+,yes
+Kerala,Widowed/Widower,Female,0-100+,yes
+Kerala,'Never Married',Male,0-100+,yes
+Kerala,Married,Male,0-100+,yes
+Kerala,Divorcee,Male,0-100+,yes
+Kerala,Seperated,Male,0-100+,yes
+Kerala,Widowed/Widower,Male,0-100+,yes
+Lakshadweep,Married,Female,0-100+,no
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,no
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Married,Female,0-100+,no
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,Married,Female,0-100+,yes
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,yes
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Married,Female,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,no
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Married,Female,0-100+,no
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,Married,Female,0-100+,yes
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,yes
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Married,Female,0-100+,yes
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,yes
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Married,Female,0-100+,no
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,Married,Female,0-100+,yes
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,Married,Female,0-100+,yes
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,no
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Married,Female,0-100+,no
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,no
+Lakshadweep,Widowed/Widower,Female,0-100+,no
+Lakshadweep,'Never Married',Female,0-100+,no
+Lakshadweep,Married,Female,0-100+,no
+Lakshadweep,Seperated,Female,0-100+,no
+Lakshadweep,Divorcee,Female,0-100+,no
+Lakshadweep,Seperated,Male,0-100+,no
+Lakshadweep,'Never Married',Male,0-100+,no
+Lakshadweep,Divorcee,Male,0-100+,no
+Lakshadweep,Married,Male,0-100+,yes
+Lakshadweep,Widowed/Widower,Male,0-100+,no
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+'Madhya Pradesh','Never Married',Female,0-100+,yes
+'Madhya Pradesh',Seperated,Female,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Female,0-100+,yes
+'Madhya Pradesh',Divorcee,Female,0-100+,yes
+'Madhya Pradesh',Married,Female,0-100+,yes
+'Madhya Pradesh',Divorcee,Male,0-100+,yes
+'Madhya Pradesh',Seperated,Male,0-100+,yes
+'Madhya Pradesh',Widowed/Widower,Male,0-100+,yes
+'Madhya Pradesh',Married,Male,0-100+,yes
+'Madhya Pradesh','Never Married',Male,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,Divorcee,Female,0-100+,yes
+Maharashtra,Widowed/Widower,Female,0-100+,yes
+Maharashtra,Married,Female,0-100+,yes
+Maharashtra,'Never Married',Female,0-100+,yes
+Maharashtra,Seperated,Female,0-100+,yes
+Maharashtra,Seperated,Male,0-100+,yes
+Maharashtra,'Never Married',Male,0-100+,yes
+Maharashtra,Divorcee,Male,0-100+,yes
+Maharashtra,Married,Male,0-100+,yes
+Maharashtra,Widowed/Widower,Male,0-100+,yes
+Manipur,Widowed/Widower,Female,0-100+,no
+Manipur,Married,Female,0-100+,yes
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Seperated,Female,0-100+,no
+Manipur,Divorcee,Female,0-100+,no
+Manipur,Divorcee,Male,0-100+,no
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,Seperated,Male,0-100+,no
+Manipur,Widowed/Widower,Male,0-100+,no
+Manipur,Married,Male,0-100+,yes
+Manipur,Widowed/Widower,Female,0-100+,no
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Divorcee,Female,0-100+,no
+Manipur,Married,Female,0-100+,yes
+Manipur,Seperated,Female,0-100+,no
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,Seperated,Male,0-100+,no
+Manipur,Widowed/Widower,Male,0-100+,no
+Manipur,Married,Male,0-100+,yes
+Manipur,Divorcee,Male,0-100+,no
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Seperated,Female,0-100+,no
+Manipur,Divorcee,Female,0-100+,no
+Manipur,Widowed/Widower,Female,0-100+,no
+Manipur,Married,Female,0-100+,yes
+Manipur,Divorcee,Male,0-100+,no
+Manipur,Married,Male,0-100+,yes
+Manipur,Widowed/Widower,Male,0-100+,no
+Manipur,Seperated,Male,0-100+,no
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Widowed/Widower,Female,0-100+,no
+Manipur,Seperated,Female,0-100+,no
+Manipur,Divorcee,Female,0-100+,no
+Manipur,Married,Female,0-100+,yes
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,Divorcee,Male,0-100+,no
+Manipur,Married,Male,0-100+,yes
+Manipur,Seperated,Male,0-100+,no
+Manipur,Widowed/Widower,Male,0-100+,no
+Manipur,Widowed/Widower,Female,0-100+,no
+Manipur,Divorcee,Female,0-100+,no
+Manipur,Married,Female,0-100+,yes
+Manipur,Seperated,Female,0-100+,no
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Seperated,Male,0-100+,no
+Manipur,Widowed/Widower,Male,0-100+,no
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,Married,Male,0-100+,yes
+Manipur,Divorcee,Male,0-100+,no
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Seperated,Female,0-100+,no
+Manipur,Divorcee,Female,0-100+,no
+Manipur,Married,Female,0-100+,yes
+Manipur,Widowed/Widower,Female,0-100+,no
+Manipur,Divorcee,Male,0-100+,no
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,Married,Male,0-100+,yes
+Manipur,Widowed/Widower,Male,0-100+,yes
+Manipur,Seperated,Male,0-100+,no
+Manipur,Widowed/Widower,Female,0-100+,no
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Seperated,Female,0-100+,no
+Manipur,Divorcee,Female,0-100+,no
+Manipur,Married,Female,0-100+,yes
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,Divorcee,Male,0-100+,no
+Manipur,Seperated,Male,0-100+,no
+Manipur,Widowed/Widower,Male,0-100+,no
+Manipur,Married,Male,0-100+,yes
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Widowed/Widower,Female,0-100+,no
+Manipur,Seperated,Female,0-100+,no
+Manipur,Married,Female,0-100+,yes
+Manipur,Divorcee,Female,0-100+,no
+Manipur,Seperated,Male,0-100+,no
+Manipur,Widowed/Widower,Male,0-100+,no
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,Married,Male,0-100+,yes
+Manipur,Divorcee,Male,0-100+,no
+Manipur,Seperated,Female,0-100+,no
+Manipur,Divorcee,Female,0-100+,no
+Manipur,Widowed/Widower,Female,0-100+,no
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Married,Female,0-100+,yes
+Manipur,Divorcee,Male,0-100+,no
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,Married,Male,0-100+,yes
+Manipur,Widowed/Widower,Male,0-100+,no
+Manipur,Seperated,Male,0-100+,no
+Manipur,Widowed/Widower,Female,0-100+,yes
+Manipur,Married,Female,0-100+,yes
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Seperated,Female,0-100+,no
+Manipur,Divorcee,Female,0-100+,no
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,Married,Male,0-100+,yes
+Manipur,Seperated,Male,0-100+,no
+Manipur,Divorcee,Male,0-100+,no
+Manipur,Widowed/Widower,Male,0-100+,no
+Manipur,Widowed/Widower,Female,0-100+,no
+Manipur,Seperated,Female,0-100+,no
+Manipur,Married,Female,0-100+,yes
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Divorcee,Female,0-100+,no
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,Seperated,Male,0-100+,no
+Manipur,Widowed/Widower,Male,0-100+,no
+Manipur,Married,Male,0-100+,yes
+Manipur,Divorcee,Male,0-100+,no
+Manipur,Seperated,Female,0-100+,no
+Manipur,Divorcee,Female,0-100+,no
+Manipur,Widowed/Widower,Female,0-100+,yes
+Manipur,'Never Married',Female,0-100+,yes
+Manipur,Married,Female,0-100+,yes
+Manipur,Divorcee,Male,0-100+,no
+Manipur,'Never Married',Male,0-100+,yes
+Manipur,Married,Male,0-100+,yes
+Manipur,Widowed/Widower,Male,0-100+,no
+Manipur,Seperated,Male,0-100+,no
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,Seperated,Female,0-100+,yes
+Meghalaya,Divorcee,Female,0-100+,no
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,Widowed/Widower,Female,0-100+,yes
+Meghalaya,Widowed/Widower,Male,0-100+,yes
+Meghalaya,Married,Male,0-100+,yes
+Meghalaya,Seperated,Male,0-100+,no
+Meghalaya,Divorcee,Male,0-100+,no
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,Divorcee,Female,0-100+,no
+Meghalaya,Seperated,Female,0-100+,no
+Meghalaya,Widowed/Widower,Female,0-100+,yes
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Seperated,Male,0-100+,no
+Meghalaya,Divorcee,Male,0-100+,no
+Meghalaya,Widowed/Widower,Male,0-100+,no
+Meghalaya,Married,Male,0-100+,yes
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,Seperated,Female,0-100+,no
+Meghalaya,Divorcee,Female,0-100+,no
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,Widowed/Widower,Female,0-100+,yes
+Meghalaya,Seperated,Male,0-100+,yes
+Meghalaya,Divorcee,Male,0-100+,no
+Meghalaya,Married,Male,0-100+,yes
+Meghalaya,Widowed/Widower,Male,0-100+,yes
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Widowed/Widower,Female,0-100+,no
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,Seperated,Female,0-100+,no
+Meghalaya,Divorcee,Female,0-100+,no
+Meghalaya,Widowed/Widower,Male,0-100+,yes
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Seperated,Male,0-100+,yes
+Meghalaya,Married,Male,0-100+,yes
+Meghalaya,Divorcee,Male,0-100+,no
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,Divorcee,Female,0-100+,no
+Meghalaya,Seperated,Female,0-100+,no
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,Widowed/Widower,Female,0-100+,no
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Widowed/Widower,Male,0-100+,no
+Meghalaya,Married,Male,0-100+,yes
+Meghalaya,Seperated,Male,0-100+,yes
+Meghalaya,Divorcee,Male,0-100+,no
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,Seperated,Female,0-100+,no
+Meghalaya,Divorcee,Female,0-100+,no
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,Widowed/Widower,Female,0-100+,no
+Meghalaya,Seperated,Male,0-100+,yes
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Divorcee,Male,0-100+,no
+Meghalaya,Married,Male,0-100+,yes
+Meghalaya,Widowed/Widower,Male,0-100+,yes
+Meghalaya,Seperated,Female,0-100+,yes
+Meghalaya,Widowed/Widower,Female,0-100+,no
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,Divorcee,Female,0-100+,no
+Meghalaya,Seperated,Male,0-100+,yes
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Widowed/Widower,Male,0-100+,yes
+Meghalaya,Married,Male,0-100+,yes
+Meghalaya,Divorcee,Male,0-100+,yes
+Meghalaya,Seperated,Female,0-100+,no
+Meghalaya,Widowed/Widower,Female,0-100+,yes
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,Divorcee,Female,0-100+,no
+Meghalaya,Married,Male,0-100+,yes
+Meghalaya,Widowed/Widower,Male,0-100+,yes
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Seperated,Male,0-100+,yes
+Meghalaya,Divorcee,Male,0-100+,no
+Meghalaya,Seperated,Female,0-100+,no
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,Divorcee,Female,0-100+,yes
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,Widowed/Widower,Female,0-100+,yes
+Meghalaya,Seperated,Male,0-100+,yes
+Meghalaya,Widowed/Widower,Male,0-100+,yes
+Meghalaya,Divorcee,Male,0-100+,yes
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Married,Male,0-100+,yes
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,Widowed/Widower,Female,0-100+,yes
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,Seperated,Female,0-100+,no
+Meghalaya,Divorcee,Female,0-100+,no
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Widowed/Widower,Male,0-100+,yes
+Meghalaya,Married,Male,0-100+,yes
+Meghalaya,Seperated,Male,0-100+,yes
+Meghalaya,Divorcee,Male,0-100+,no
+Meghalaya,Seperated,Female,0-100+,no
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,Widowed/Widower,Female,0-100+,yes
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,Divorcee,Female,0-100+,no
+Meghalaya,Widowed/Widower,Male,0-100+,yes
+Meghalaya,Seperated,Male,0-100+,no
+Meghalaya,Married,Male,0-100+,yes
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Divorcee,Male,0-100+,yes
+Meghalaya,'Never Married',Female,0-100+,yes
+Meghalaya,Widowed/Widower,Female,0-100+,yes
+Meghalaya,Seperated,Female,0-100+,no
+Meghalaya,Married,Female,0-100+,yes
+Meghalaya,Divorcee,Female,0-100+,yes
+Meghalaya,Divorcee,Male,0-100+,no
+Meghalaya,Widowed/Widower,Male,0-100+,yes
+Meghalaya,Seperated,Male,0-100+,no
+Meghalaya,'Never Married',Male,0-100+,yes
+Meghalaya,Married,Male,0-100+,yes
+Mizoram,Widowed/Widower,Female,0-100+,no
+Mizoram,Married,Female,0-100+,yes
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Seperated,Female,0-100+,no
+Mizoram,Divorcee,Female,0-100+,yes
+Mizoram,Widowed/Widower,Male,0-100+,no
+Mizoram,Married,Male,0-100+,yes
+Mizoram,Seperated,Male,0-100+,yes
+Mizoram,Divorcee,Male,0-100+,yes
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Divorcee,Female,0-100+,no
+Mizoram,Married,Female,0-100+,yes
+Mizoram,Seperated,Female,0-100+,no
+Mizoram,Widowed/Widower,Female,0-100+,yes
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Widowed/Widower,Male,0-100+,yes
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Seperated,Male,0-100+,yes
+Mizoram,Married,Male,0-100+,yes
+Mizoram,Divorcee,Male,0-100+,yes
+Mizoram,Married,Female,0-100+,yes
+Mizoram,Widowed/Widower,Female,0-100+,no
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Seperated,Female,0-100+,yes
+Mizoram,Divorcee,Female,0-100+,no
+Mizoram,Widowed/Widower,Male,0-100+,no
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Married,Male,0-100+,yes
+Mizoram,Divorcee,Male,0-100+,no
+Mizoram,Seperated,Male,0-100+,yes
+Mizoram,Married,Female,0-100+,yes
+Mizoram,Divorcee,Female,0-100+,no
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Seperated,Female,0-100+,no
+Mizoram,Widowed/Widower,Female,0-100+,yes
+Mizoram,Divorcee,Male,0-100+,yes
+Mizoram,Widowed/Widower,Male,0-100+,yes
+Mizoram,Seperated,Male,0-100+,yes
+Mizoram,Married,Male,0-100+,yes
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Divorcee,Female,0-100+,no
+Mizoram,Married,Female,0-100+,yes
+Mizoram,Seperated,Female,0-100+,no
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Widowed/Widower,Female,0-100+,no
+Mizoram,Married,Male,0-100+,yes
+Mizoram,Widowed/Widower,Male,0-100+,no
+Mizoram,Divorcee,Male,0-100+,no
+Mizoram,Seperated,Male,0-100+,no
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Widowed/Widower,Female,0-100+,no
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Seperated,Female,0-100+,no
+Mizoram,Divorcee,Female,0-100+,no
+Mizoram,Married,Female,0-100+,yes
+Mizoram,Married,Male,0-100+,yes
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Widowed/Widower,Male,0-100+,no
+Mizoram,Seperated,Male,0-100+,yes
+Mizoram,Divorcee,Male,0-100+,no
+Mizoram,Seperated,Female,0-100+,yes
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Married,Female,0-100+,yes
+Mizoram,Divorcee,Female,0-100+,yes
+Mizoram,Widowed/Widower,Female,0-100+,yes
+Mizoram,Divorcee,Male,0-100+,yes
+Mizoram,Seperated,Male,0-100+,yes
+Mizoram,Married,Male,0-100+,yes
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Widowed/Widower,Male,0-100+,no
+Mizoram,Widowed/Widower,Female,0-100+,yes
+Mizoram,Divorcee,Female,0-100+,no
+Mizoram,Seperated,Female,0-100+,no
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Married,Female,0-100+,yes
+Mizoram,Married,Male,0-100+,yes
+Mizoram,Widowed/Widower,Male,0-100+,no
+Mizoram,Divorcee,Male,0-100+,no
+Mizoram,Seperated,Male,0-100+,yes
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Married,Female,0-100+,yes
+Mizoram,Widowed/Widower,Female,0-100+,no
+Mizoram,Divorcee,Female,0-100+,no
+Mizoram,Seperated,Female,0-100+,no
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Married,Male,0-100+,yes
+Mizoram,Seperated,Male,0-100+,yes
+Mizoram,Divorcee,Male,0-100+,yes
+Mizoram,Widowed/Widower,Male,0-100+,yes
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Widowed/Widower,Female,0-100+,no
+Mizoram,Divorcee,Female,0-100+,no
+Mizoram,Married,Female,0-100+,yes
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Seperated,Female,0-100+,no
+Mizoram,Married,Male,0-100+,yes
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Divorcee,Male,0-100+,yes
+Mizoram,Seperated,Male,0-100+,yes
+Mizoram,Widowed/Widower,Male,0-100+,no
+Mizoram,Married,Female,0-100+,yes
+Mizoram,Widowed/Widower,Female,0-100+,yes
+Mizoram,Seperated,Female,0-100+,no
+Mizoram,Divorcee,Female,0-100+,yes
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Widowed/Widower,Male,0-100+,no
+Mizoram,Divorcee,Male,0-100+,yes
+Mizoram,Seperated,Male,0-100+,yes
+Mizoram,Married,Male,0-100+,yes
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Married,Female,0-100+,no
+Mizoram,'Never Married',Female,0-100+,yes
+Mizoram,Seperated,Female,0-100+,yes
+Mizoram,Widowed/Widower,Female,0-100+,no
+Mizoram,Divorcee,Female,0-100+,no
+Mizoram,Seperated,Male,0-100+,yes
+Mizoram,'Never Married',Male,0-100+,yes
+Mizoram,Divorcee,Male,0-100+,no
+Mizoram,Widowed/Widower,Male,0-100+,yes
+Mizoram,Married,Male,0-100+,yes
+Nagaland,Married,Female,0-100+,yes
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,Widowed/Widower,Female,0-100+,yes
+Nagaland,Seperated,Female,0-100+,no
+Nagaland,'Never Married',Female,0-100+,yes
+Nagaland,Married,Male,0-100+,yes
+Nagaland,Seperated,Male,0-100+,no
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,Divorcee,Male,0-100+,no
+Nagaland,'Never Married',Female,0-100+,yes
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,Married,Female,0-100+,yes
+Nagaland,Seperated,Female,0-100+,no
+Nagaland,Widowed/Widower,Female,0-100+,yes
+Nagaland,Seperated,Male,0-100+,no
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Divorcee,Male,0-100+,no
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,Married,Male,0-100+,yes
+Nagaland,Married,Female,0-100+,yes
+Nagaland,Seperated,Female,0-100+,no
+Nagaland,'Never Married',Female,0-100+,yes
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,Widowed/Widower,Female,0-100+,no
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,Divorcee,Male,0-100+,no
+Nagaland,Married,Male,0-100+,yes
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Seperated,Male,0-100+,yes
+Nagaland,Married,Female,0-100+,yes
+Nagaland,Widowed/Widower,Female,0-100+,no
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,'Never Married',Female,0-100+,yes
+Nagaland,Seperated,Female,0-100+,no
+Nagaland,Seperated,Male,0-100+,no
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,Divorcee,Male,0-100+,no
+Nagaland,Married,Male,0-100+,yes
+Nagaland,'Never Married',Female,0-100+,yes
+Nagaland,Married,Female,0-100+,yes
+Nagaland,Seperated,Female,0-100+,yes
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,Widowed/Widower,Female,0-100+,no
+Nagaland,Divorcee,Male,0-100+,no
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,Married,Male,0-100+,yes
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Seperated,Male,0-100+,yes
+Nagaland,Seperated,Female,0-100+,no
+Nagaland,Married,Female,0-100+,yes
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,Widowed/Widower,Female,0-100+,no
+Nagaland,'Never Married',Female,0-100+,yes
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Married,Male,0-100+,yes
+Nagaland,Seperated,Male,0-100+,no
+Nagaland,Divorcee,Male,0-100+,no
+Nagaland,Widowed/Widower,Female,0-100+,no
+Nagaland,'Never Married',Female,0-100+,yes
+Nagaland,Married,Female,0-100+,yes
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,Seperated,Female,0-100+,no
+Nagaland,Married,Male,0-100+,yes
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,Divorcee,Male,0-100+,no
+Nagaland,Seperated,Male,0-100+,no
+Nagaland,Seperated,Female,0-100+,no
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,Widowed/Widower,Female,0-100+,no
+Nagaland,Married,Female,0-100+,yes
+Nagaland,'Never Married',Female,0-100+,yes
+Nagaland,Seperated,Male,0-100+,no
+Nagaland,Divorcee,Male,0-100+,no
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Married,Male,0-100+,yes
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,'Never Married',Female,0-100+,yes
+Nagaland,Married,Female,0-100+,yes
+Nagaland,Seperated,Female,0-100+,no
+Nagaland,Widowed/Widower,Female,0-100+,no
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,Married,Male,0-100+,yes
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Seperated,Male,0-100+,no
+Nagaland,Divorcee,Male,0-100+,no
+Nagaland,Widowed/Widower,Female,0-100+,no
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,'Never Married',Female,0-100+,no
+Nagaland,Married,Female,0-100+,yes
+Nagaland,Seperated,Female,0-100+,no
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Married,Male,0-100+,yes
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,Divorcee,Male,0-100+,no
+Nagaland,Seperated,Male,0-100+,no
+Nagaland,'Never Married',Female,0-100+,yes
+Nagaland,Seperated,Female,0-100+,no
+Nagaland,Married,Female,0-100+,yes
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,Widowed/Widower,Female,0-100+,no
+Nagaland,Divorcee,Male,0-100+,no
+Nagaland,Married,Male,0-100+,yes
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Seperated,Male,0-100+,no
+Nagaland,'Never Married',Female,0-100+,yes
+Nagaland,Married,Female,0-100+,yes
+Nagaland,Seperated,Female,0-100+,no
+Nagaland,Widowed/Widower,Female,0-100+,no
+Nagaland,Divorcee,Female,0-100+,no
+Nagaland,Widowed/Widower,Male,0-100+,no
+Nagaland,Married,Male,0-100+,yes
+Nagaland,'Never Married',Male,0-100+,yes
+Nagaland,Divorcee,Male,0-100+,yes
+Nagaland,Seperated,Male,0-100+,no
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,Divorcee,Female,0-100+,yes
+Odisha,Married,Female,0-100+,yes
+Odisha,Seperated,Female,0-100+,yes
+Odisha,Widowed/Widower,Female,0-100+,yes
+Odisha,'Never Married',Female,0-100+,yes
+Odisha,Married,Male,0-100+,yes
+Odisha,Seperated,Male,0-100+,yes
+Odisha,'Never Married',Male,0-100+,yes
+Odisha,Widowed/Widower,Male,0-100+,yes
+Odisha,Divorcee,Male,0-100+,yes
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,Married,Male,0-100+,yes
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,Widowed/Widower,Male,0-100+,no
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Widowed/Widower,Male,0-100+,no
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,Married,Male,0-100+,yes
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Married,Male,0-100+,yes
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,Widowed/Widower,Male,0-100+,yes
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Married,Male,0-100+,yes
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Widowed/Widower,Male,0-100+,yes
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,Married,Male,0-100+,yes
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Widowed/Widower,Male,0-100+,no
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,Widowed/Widower,Male,0-100+,yes
+Puducherry,Married,Male,0-100+,yes
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Married,Male,0-100+,yes
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Widowed/Widower,Male,0-100+,no
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Married,Male,0-100+,yes
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Widowed/Widower,Male,0-100+,no
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,Married,Male,0-100+,yes
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Widowed/Widower,Male,0-100+,no
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,Married,Male,0-100+,yes
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Widowed/Widower,Male,0-100+,no
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Married,Male,0-100+,yes
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,Widowed/Widower,Male,0-100+,no
+Puducherry,Seperated,Female,0-100+,no
+Puducherry,'Never Married',Female,0-100+,yes
+Puducherry,Widowed/Widower,Female,0-100+,yes
+Puducherry,Divorcee,Female,0-100+,no
+Puducherry,Married,Female,0-100+,yes
+Puducherry,Divorcee,Male,0-100+,no
+Puducherry,'Never Married',Male,0-100+,yes
+Puducherry,Married,Male,0-100+,yes
+Puducherry,Seperated,Male,0-100+,no
+Puducherry,Widowed/Widower,Male,0-100+,no
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,Divorcee,Female,0-100+,yes
+Punjab,Married,Female,0-100+,yes
+Punjab,Seperated,Female,0-100+,yes
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Seperated,Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,yes
+Punjab,Married,Male,0-100+,yes
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,Divorcee,Female,0-100+,yes
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Married,Female,0-100+,yes
+Punjab,Seperated,Female,0-100+,yes
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,Married,Male,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,no
+Punjab,Seperated,Male,0-100+,yes
+Punjab,Divorcee,Female,0-100+,yes
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,Married,Female,0-100+,yes
+Punjab,Seperated,Female,0-100+,yes
+Punjab,Seperated,Male,0-100+,yes
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Married,Male,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,yes
+Punjab,Divorcee,Female,0-100+,yes
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Seperated,Female,0-100+,no
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,Married,Female,0-100+,yes
+Punjab,Married,Male,0-100+,yes
+Punjab,Seperated,Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Married,Female,0-100+,yes
+Punjab,Seperated,Female,0-100+,no
+Punjab,Divorcee,Female,0-100+,no
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Seperated,Male,0-100+,yes
+Punjab,Married,Male,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,yes
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Divorcee,Female,0-100+,no
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Married,Female,0-100+,yes
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,Seperated,Female,0-100+,yes
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Married,Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,Seperated,Male,0-100+,yes
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Married,Female,0-100+,yes
+Punjab,Divorcee,Female,0-100+,no
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,Seperated,Female,0-100+,no
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Seperated,Male,0-100+,yes
+Punjab,Married,Male,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,no
+Punjab,Married,Female,0-100+,yes
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Divorcee,Female,0-100+,yes
+Punjab,Seperated,Female,0-100+,no
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Seperated,Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,yes
+Punjab,Married,Male,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Divorcee,Female,0-100+,yes
+Punjab,Seperated,Female,0-100+,yes
+Punjab,Married,Female,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,yes
+Punjab,Married,Male,0-100+,yes
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Seperated,Male,0-100+,yes
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Married,Female,0-100+,yes
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,Divorcee,Female,0-100+,yes
+Punjab,Seperated,Female,0-100+,no
+Punjab,Seperated,Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,yes
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Married,Male,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,Married,Female,0-100+,yes
+Punjab,Seperated,Female,0-100+,no
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,Divorcee,Female,0-100+,no
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Seperated,Male,0-100+,yes
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,no
+Punjab,Married,Male,0-100+,yes
+Punjab,Seperated,Female,0-100+,no
+Punjab,'Never Married',Female,0-100+,yes
+Punjab,Divorcee,Female,0-100+,yes
+Punjab,Married,Female,0-100+,yes
+Punjab,Widowed/Widower,Female,0-100+,yes
+Punjab,Seperated,Male,0-100+,yes
+Punjab,Divorcee,Male,0-100+,yes
+Punjab,Widowed/Widower,Male,0-100+,yes
+Punjab,'Never Married',Male,0-100+,yes
+Punjab,Married,Male,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Rajasthan,Seperated,Female,0-100+,yes
+Rajasthan,'Never Married',Female,0-100+,yes
+Rajasthan,Married,Female,0-100+,yes
+Rajasthan,Divorcee,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Female,0-100+,yes
+Rajasthan,Widowed/Widower,Male,0-100+,yes
+Rajasthan,Seperated,Male,0-100+,yes
+Rajasthan,Divorcee,Male,0-100+,yes
+Rajasthan,'Never Married',Male,0-100+,yes
+Rajasthan,Married,Male,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,no
+Sikkim,Married,Female,0-100+,yes
+Sikkim,Seperated,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Widowed/Widower,Female,0-100+,no
+Sikkim,Divorcee,Male,0-100+,no
+Sikkim,Married,Male,0-100+,yes
+Sikkim,'Never Married',Male,0-100+,yes
+Sikkim,Widowed/Widower,Male,0-100+,yes
+Sikkim,Seperated,Male,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,yes
+Sikkim,Seperated,Female,0-100+,yes
+Sikkim,Widowed/Widower,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Married,Female,0-100+,yes
+Sikkim,Widowed/Widower,Male,0-100+,yes
+Sikkim,Seperated,Male,0-100+,yes
+Sikkim,Divorcee,Male,0-100+,yes
+Sikkim,'Never Married',Male,0-100+,yes
+Sikkim,Married,Male,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,no
+Sikkim,Married,Female,0-100+,yes
+Sikkim,Widowed/Widower,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Seperated,Female,0-100+,no
+Sikkim,Divorcee,Male,0-100+,no
+Sikkim,'Never Married',Male,0-100+,yes
+Sikkim,Widowed/Widower,Male,0-100+,yes
+Sikkim,Seperated,Male,0-100+,yes
+Sikkim,Married,Male,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,no
+Sikkim,Seperated,Female,0-100+,no
+Sikkim,Married,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Widowed/Widower,Female,0-100+,no
+Sikkim,'Never Married',Male,0-100+,no
+Sikkim,Divorcee,Male,0-100+,no
+Sikkim,Married,Male,0-100+,yes
+Sikkim,Seperated,Male,0-100+,no
+Sikkim,Widowed/Widower,Male,0-100+,no
+Sikkim,Seperated,Female,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Married,Female,0-100+,yes
+Sikkim,Widowed/Widower,Female,0-100+,yes
+Sikkim,Widowed/Widower,Male,0-100+,no
+Sikkim,Seperated,Male,0-100+,yes
+Sikkim,Married,Male,0-100+,yes
+Sikkim,Divorcee,Male,0-100+,no
+Sikkim,'Never Married',Male,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,yes
+Sikkim,Widowed/Widower,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Seperated,Female,0-100+,no
+Sikkim,Married,Female,0-100+,yes
+Sikkim,Seperated,Male,0-100+,yes
+Sikkim,Married,Male,0-100+,yes
+Sikkim,'Never Married',Male,0-100+,yes
+Sikkim,Widowed/Widower,Male,0-100+,yes
+Sikkim,Divorcee,Male,0-100+,no
+Sikkim,Widowed/Widower,Female,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Seperated,Female,0-100+,yes
+Sikkim,Married,Female,0-100+,yes
+Sikkim,'Never Married',Male,0-100+,yes
+Sikkim,Widowed/Widower,Male,0-100+,yes
+Sikkim,Seperated,Male,0-100+,yes
+Sikkim,Divorcee,Male,0-100+,yes
+Sikkim,Married,Male,0-100+,yes
+Sikkim,Widowed/Widower,Female,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Seperated,Female,0-100+,no
+Sikkim,Married,Female,0-100+,yes
+Sikkim,Divorcee,Male,0-100+,yes
+Sikkim,'Never Married',Male,0-100+,yes
+Sikkim,Seperated,Male,0-100+,no
+Sikkim,Married,Male,0-100+,yes
+Sikkim,Widowed/Widower,Male,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,yes
+Sikkim,Married,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Widowed/Widower,Female,0-100+,yes
+Sikkim,Seperated,Female,0-100+,yes
+Sikkim,Seperated,Male,0-100+,yes
+Sikkim,Widowed/Widower,Male,0-100+,yes
+Sikkim,'Never Married',Male,0-100+,yes
+Sikkim,Divorcee,Male,0-100+,yes
+Sikkim,Married,Male,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Widowed/Widower,Female,0-100+,yes
+Sikkim,Seperated,Female,0-100+,yes
+Sikkim,Married,Female,0-100+,yes
+Sikkim,Widowed/Widower,Male,0-100+,yes
+Sikkim,Married,Male,0-100+,yes
+Sikkim,Seperated,Male,0-100+,yes
+Sikkim,'Never Married',Male,0-100+,yes
+Sikkim,Divorcee,Male,0-100+,yes
+Sikkim,Married,Female,0-100+,yes
+Sikkim,Widowed/Widower,Female,0-100+,yes
+Sikkim,Seperated,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,yes
+Sikkim,Married,Male,0-100+,yes
+Sikkim,Widowed/Widower,Male,0-100+,yes
+Sikkim,Seperated,Male,0-100+,yes
+Sikkim,'Never Married',Male,0-100+,yes
+Sikkim,Divorcee,Male,0-100+,yes
+Sikkim,Married,Female,0-100+,yes
+Sikkim,Seperated,Female,0-100+,yes
+Sikkim,Widowed/Widower,Female,0-100+,yes
+Sikkim,'Never Married',Female,0-100+,yes
+Sikkim,Divorcee,Female,0-100+,yes
+Sikkim,Widowed/Widower,Male,0-100+,yes
+Sikkim,Divorcee,Male,0-100+,yes
+Sikkim,Married,Male,0-100+,yes
+Sikkim,'Never Married',Male,0-100+,yes
+Sikkim,Seperated,Male,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Female,0-100+,yes
+'Tamil Nadu',Married,Female,0-100+,yes
+'Tamil Nadu',Divorcee,Female,0-100+,yes
+'Tamil Nadu',Seperated,Female,0-100+,yes
+'Tamil Nadu','Never Married',Female,0-100+,yes
+'Tamil Nadu',Married,Male,0-100+,yes
+'Tamil Nadu',Widowed/Widower,Male,0-100+,yes
+'Tamil Nadu',Divorcee,Male,0-100+,yes
+'Tamil Nadu',Seperated,Male,0-100+,yes
+'Tamil Nadu','Never Married',Male,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)',Divorcee,Female,0-100+,yes
+'Total (All India)',Married,Female,0-100+,yes
+'Total (All India)',Seperated,Female,0-100+,yes
+'Total (All India)',Widowed/Widower,Female,0-100+,yes
+'Total (All India)','Never Married',Female,0-100+,yes
+'Total (All India)',Married,Male,0-100+,yes
+'Total (All India)','Never Married',Male,0-100+,yes
+'Total (All India)',Divorcee,Male,0-100+,yes
+'Total (All India)',Seperated,Male,0-100+,yes
+'Total (All India)',Widowed/Widower,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)',Seperated,Female,0-100+,yes
+'Total (States)','Never Married',Female,0-100+,yes
+'Total (States)',Widowed/Widower,Female,0-100+,yes
+'Total (States)',Divorcee,Female,0-100+,yes
+'Total (States)',Married,Female,0-100+,yes
+'Total (States)',Seperated,Male,0-100+,yes
+'Total (States)',Widowed/Widower,Male,0-100+,yes
+'Total (States)',Divorcee,Male,0-100+,yes
+'Total (States)','Never Married',Male,0-100+,yes
+'Total (States)',Married,Male,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,yes
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,no
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,no
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,no
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,yes
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,no
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,no
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,no
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,yes
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,yes
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,yes
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,yes
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,yes
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)',Widowed/Widower,Female,0-100+,yes
+'Total (Uts)',Married,Female,0-100+,yes
+'Total (Uts)','Never Married',Female,0-100+,yes
+'Total (Uts)',Divorcee,Female,0-100+,yes
+'Total (Uts)',Seperated,Female,0-100+,yes
+'Total (Uts)','Never Married',Male,0-100+,yes
+'Total (Uts)',Married,Male,0-100+,yes
+'Total (Uts)',Divorcee,Male,0-100+,yes
+'Total (Uts)',Widowed/Widower,Male,0-100+,yes
+'Total (Uts)',Seperated,Male,0-100+,yes
+Tripura,Married,Female,0-100+,yes
+Tripura,Widowed/Widower,Female,0-100+,yes
+Tripura,Divorcee,Female,0-100+,yes
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,Seperated,Female,0-100+,yes
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,Seperated,Male,0-100+,yes
+Tripura,Widowed/Widower,Male,0-100+,yes
+Tripura,Married,Male,0-100+,yes
+Tripura,Divorcee,Male,0-100+,yes
+Tripura,Widowed/Widower,Female,0-100+,yes
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,Married,Female,0-100+,yes
+Tripura,Divorcee,Female,0-100+,yes
+Tripura,Seperated,Female,0-100+,yes
+Tripura,Seperated,Male,0-100+,yes
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,Widowed/Widower,Male,0-100+,yes
+Tripura,Married,Male,0-100+,yes
+Tripura,Divorcee,Male,0-100+,yes
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,Widowed/Widower,Female,0-100+,no
+Tripura,Divorcee,Female,0-100+,yes
+Tripura,Seperated,Female,0-100+,yes
+Tripura,Married,Female,0-100+,yes
+Tripura,Married,Male,0-100+,yes
+Tripura,Seperated,Male,0-100+,yes
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,Divorcee,Male,0-100+,yes
+Tripura,Widowed/Widower,Male,0-100+,yes
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,Widowed/Widower,Female,0-100+,yes
+Tripura,Divorcee,Female,0-100+,yes
+Tripura,Married,Female,0-100+,yes
+Tripura,Seperated,Female,0-100+,no
+Tripura,Seperated,Male,0-100+,yes
+Tripura,Widowed/Widower,Male,0-100+,yes
+Tripura,Divorcee,Male,0-100+,yes
+Tripura,Married,Male,0-100+,yes
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,Married,Female,0-100+,yes
+Tripura,Widowed/Widower,Female,0-100+,yes
+Tripura,Divorcee,Female,0-100+,yes
+Tripura,Seperated,Female,0-100+,yes
+Tripura,Married,Male,0-100+,yes
+Tripura,Seperated,Male,0-100+,yes
+Tripura,Widowed/Widower,Male,0-100+,yes
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,Divorcee,Male,0-100+,yes
+Tripura,Widowed/Widower,Female,0-100+,yes
+Tripura,Seperated,Female,0-100+,no
+Tripura,Married,Female,0-100+,yes
+Tripura,Divorcee,Female,0-100+,no
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,Divorcee,Male,0-100+,no
+Tripura,Seperated,Male,0-100+,no
+Tripura,Married,Male,0-100+,yes
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,Widowed/Widower,Male,0-100+,yes
+Tripura,Divorcee,Female,0-100+,no
+Tripura,Married,Female,0-100+,yes
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,Widowed/Widower,Female,0-100+,yes
+Tripura,Seperated,Female,0-100+,no
+Tripura,Seperated,Male,0-100+,no
+Tripura,Married,Male,0-100+,yes
+Tripura,Widowed/Widower,Male,0-100+,yes
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,Divorcee,Male,0-100+,no
+Tripura,Widowed/Widower,Female,0-100+,yes
+Tripura,Divorcee,Female,0-100+,no
+Tripura,Seperated,Female,0-100+,no
+Tripura,Married,Female,0-100+,yes
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,Widowed/Widower,Male,0-100+,no
+Tripura,Seperated,Male,0-100+,no
+Tripura,Divorcee,Male,0-100+,no
+Tripura,Married,Male,0-100+,yes
+Tripura,Married,Female,0-100+,yes
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,Seperated,Female,0-100+,no
+Tripura,Widowed/Widower,Female,0-100+,yes
+Tripura,Divorcee,Female,0-100+,no
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,Seperated,Male,0-100+,yes
+Tripura,Widowed/Widower,Male,0-100+,yes
+Tripura,Divorcee,Male,0-100+,no
+Tripura,Married,Male,0-100+,yes
+Tripura,Divorcee,Female,0-100+,no
+Tripura,Married,Female,0-100+,yes
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,Widowed/Widower,Female,0-100+,yes
+Tripura,Seperated,Female,0-100+,no
+Tripura,Married,Male,0-100+,yes
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,Seperated,Male,0-100+,no
+Tripura,Widowed/Widower,Male,0-100+,no
+Tripura,Divorcee,Male,0-100+,no
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,Widowed/Widower,Female,0-100+,yes
+Tripura,Seperated,Female,0-100+,yes
+Tripura,Divorcee,Female,0-100+,no
+Tripura,Married,Female,0-100+,yes
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,Seperated,Male,0-100+,yes
+Tripura,Widowed/Widower,Male,0-100+,no
+Tripura,Divorcee,Male,0-100+,no
+Tripura,Married,Male,0-100+,yes
+Tripura,Married,Female,0-100+,yes
+Tripura,'Never Married',Female,0-100+,yes
+Tripura,Divorcee,Female,0-100+,no
+Tripura,Widowed/Widower,Female,0-100+,yes
+Tripura,Seperated,Female,0-100+,yes
+Tripura,'Never Married',Male,0-100+,yes
+Tripura,Divorcee,Male,0-100+,no
+Tripura,Seperated,Male,0-100+,yes
+Tripura,Widowed/Widower,Male,0-100+,yes
+Tripura,Married,Male,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Female,0-100+,yes
+'Uttar Pradesh',Seperated,Female,0-100+,yes
+'Uttar Pradesh',Divorcee,Female,0-100+,yes
+'Uttar Pradesh',Married,Female,0-100+,yes
+'Uttar Pradesh',Widowed/Widower,Male,0-100+,yes
+'Uttar Pradesh',Seperated,Male,0-100+,yes
+'Uttar Pradesh','Never Married',Male,0-100+,yes
+'Uttar Pradesh',Divorcee,Male,0-100+,yes
+'Uttar Pradesh',Married,Male,0-100+,yes
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,yes
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Seperated,Female,0-100+,yes
+Uttarakhand,Widowed/Widower,Female,0-100+,yes
+Uttarakhand,'Never Married',Male,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,no
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,yes
+Uttarakhand,Seperated,Female,0-100+,yes
+Uttarakhand,Widowed/Widower,Female,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,'Never Married',Male,0-100+,yes
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,Widowed/Widower,Female,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,yes
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Seperated,Female,0-100+,no
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,'Never Married',Male,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,yes
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,Seperated,Female,0-100+,yes
+Uttarakhand,Widowed/Widower,Female,0-100+,yes
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,yes
+Uttarakhand,'Never Married',Male,0-100+,yes
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,yes
+Uttarakhand,Seperated,Female,0-100+,no
+Uttarakhand,Widowed/Widower,Female,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,'Never Married',Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,yes
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,Seperated,Female,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,yes
+Uttarakhand,Widowed/Widower,Female,0-100+,yes
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,yes
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,'Never Married',Male,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,Seperated,Female,0-100+,yes
+Uttarakhand,Widowed/Widower,Female,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,yes
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,yes
+Uttarakhand,'Never Married',Male,0-100+,yes
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,yes
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Seperated,Female,0-100+,yes
+Uttarakhand,Widowed/Widower,Female,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,'Never Married',Male,0-100+,yes
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,Seperated,Female,0-100+,yes
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,yes
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,Widowed/Widower,Female,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,yes
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,'Never Married',Male,0-100+,yes
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,Widowed/Widower,Female,0-100+,no
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,no
+Uttarakhand,Seperated,Female,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,no
+Uttarakhand,'Never Married',Male,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,no
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Seperated,Female,0-100+,yes
+Uttarakhand,Widowed/Widower,Female,0-100+,yes
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,'Never Married',Male,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,yes
+Uttarakhand,Married,Female,0-100+,yes
+Uttarakhand,Seperated,Female,0-100+,no
+Uttarakhand,'Never Married',Female,0-100+,yes
+Uttarakhand,Divorcee,Female,0-100+,yes
+Uttarakhand,Widowed/Widower,Female,0-100+,yes
+Uttarakhand,Married,Male,0-100+,yes
+Uttarakhand,Seperated,Male,0-100+,yes
+Uttarakhand,Divorcee,Male,0-100+,no
+Uttarakhand,Widowed/Widower,Male,0-100+,yes
+Uttarakhand,'Never Married',Male,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal',Seperated,Female,0-100+,yes
+'West Bengal',Married,Female,0-100+,yes
+'West Bengal',Divorcee,Female,0-100+,yes
+'West Bengal',Widowed/Widower,Female,0-100+,yes
+'West Bengal','Never Married',Female,0-100+,yes
+'West Bengal',Seperated,Male,0-100+,yes
+'West Bengal',Widowed/Widower,Male,0-100+,yes
+'West Bengal',Married,Male,0-100+,yes
+'West Bengal',Divorcee,Male,0-100+,yes
+'West Bengal','Never Married',Male,0-100+,yes
